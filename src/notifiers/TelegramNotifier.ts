@@ -23,10 +23,10 @@ export class TelegramNotifier implements INotifier {
     }
   }
 
-  async sendMessage(text: string): Promise<void> {
+  async sendMessage(text: string, specificChatId?: string): Promise<void> {
     try {
       await axios.post(`https://api.telegram.org/bot${this.botToken}/sendMessage`, {
-        chat_id: this.chatId,
+        chat_id: specificChatId || this.chatId,
         text: text,
         parse_mode: 'Markdown',
       });
