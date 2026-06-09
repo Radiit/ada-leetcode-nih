@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@types/axios": "^0.9.36",
     "@types/fs-extra": "^11.0.4",
@@ -17,7 +17,7 @@
     "axios": "^1.17.0",
     "dotenv": "^17.4.2",
     "fs-extra": "^11.3.5",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   }
 }

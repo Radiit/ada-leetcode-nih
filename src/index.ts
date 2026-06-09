@@ -8,7 +8,12 @@ import { TelegramNotifier } from './notifiers/TelegramNotifier';
 import { INotifier } from './notifiers/INotifier';
 import { State, Member } from './types';
 
+import { fileURLToPath } from 'url';
+
 dotenv.config();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const STATE_FILE = path.join(__dirname, '../data/state.json');
 
