@@ -1,0 +1,23 @@
+{
+  "name": "leetcode-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^25.9.2",
+    "axios": "^1.17.0",
+    "dotenv": "^17.4.2",
+    "fs-extra": "^11.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
